@@ -1,7 +1,7 @@
 # Личный проект «Мишка» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Danila Abramov](https://up.htmlacademy.ru/adaptive/20/user/1001661).
-* Наставник: `Неизвестно`.
+* Наставник: [Semen Zgurskiy](https://vk.com/id89930074).
 
 ---
 
