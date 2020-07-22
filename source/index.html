@@ -1,12 +1,171 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Мишка</title>
-  </head>
-  <body>
+<html class="page" lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Мишка</title>
+</head>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
+<body class="page__body">
+  <header class="page-header">
+    <a class="page-header__logo">
+      <img src="img/mishka-logo-mobile.svg" width="85.97" height="34.92" alt="Логотип сайта Mishka">
+    </a>
 
-  </body>
+    <nav class="main-nav">
+      <button class="main-nav__toggle" type="button" aria-label="Открыть меню"></button>
+
+      <ul class="main-nav__list site-list">
+        <li class="site-list__item">
+          <a href="blank.html" class="site-list__link">
+            Каталог товаров
+          </a>
+        </li>
+
+        <li class="site-list__item">
+          <a href="blank.html" class="site-list__link">
+            Вязание на заказ
+          </a>
+        </li>
+      </ul>
+
+      <ul class="main-nav__list user-list">
+        <li class="user-list__item">
+          <a href="blank.html" class="user-list__link">
+            Поиск по сайту
+          </a>
+        </li>
+
+        <li class="user-list__item">
+          <a href="blank.html" class="user-list__link">
+            Корзина: пока пуста
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="page-main">
+    <h1 class="visually-hidden">Интернет-магазин игрушек ручной работы Mishka</h1>
+
+    <section class="intro">
+      <h2 class="intro__title">Милые штучки ручной работы для дома</h2>
+
+      <ul class="intro__list">
+        <li class="intro__item intro__item--interior">
+          <a class="intro__link" href="blank.html">
+            Предметы интерьера
+          </a>
+        </li>
+
+        <li class="intro__item intro__item--toys">
+          <a class="intro__link" href="hlank.html">
+            Детские игрушки
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="offer">
+      <h3 class="offer__title">Вязанные картинки</h3>
+      <h2 class="offer__section-title">Товар недели</h2>
+      <p class="offer__text">Экологически чистая пряжа, ручная работа. Доступны в шести расцветках, и трех размерах.</p>
+
+      <table class="offer__table">
+        <tr class="offer__table-row">
+          <td class="offer__table-cell">Цвет:</td>
+          <td class="offer__table-cell">«Тифани»/серый</td>
+        </tr>
+        <tr class="offer__table-row">
+          <td class="offer__table-cell">Диаметр:</td>
+          <td class="offer__table-cell">25 см</td>
+        </tr>
+        <tr class="offer__table-row">
+          <td class="offer__table-cell">Высота:</td>
+          <td class="offer__table-cell">15 см</td>
+        </tr>
+      </table>
+
+      <img class="offer__image" src="img/triple-set-mobile.png" width="260" height="315" alt="Фото вязанных корзинок">
+
+      <p class="offer__price">Цена: 990 руб.</p>
+
+      <button class="offer__button" type="button">Заказать</button>
+    </section>
+
+    <section class="about-us">
+      <h2 class="about-us__title">Коротко о нас</h2>
+
+      <ul class="about-us__list">
+        <li class="about-us__item about-us__item--eco">
+          <p class="about-us__text">
+            Экологически чистые материалы
+          </p>
+        </li>
+        <li class="about-us__item about-us__item--scandinavia">
+          <p class="about-us__text">
+            Скандинавский стиль по российской цене
+          </p>
+        </li>
+        <li class="about-us__item about-us__item--likes">
+          <p class="about-us__text">
+            Увеличивает лайки на фотографиях
+          </p>
+        </li>
+        <li class="about-us__item about-us__item--custom">
+          <p class="about-us__text">
+            Связано вручную с любовью и умилением
+          </p>
+        </li>
+        <li class="about-us__item about-us__item--national">
+          <p class="about-us__text">
+            Поддержка отечественного производителя
+          </p>
+        </li>
+        <li class="about-us__item about-us__item--package">
+          <p class="about-us__text">
+            Поставляется в подарочной упаковке
+          </p>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <section class="page-footer__social social">
+      <h2 class="visually-hidden">Mishka в социальных сетях</h2>
+
+      <ul class="social__list">
+        <li class="social__item">
+          <a class="social__link social__link--instagram" href="blank.html" aria-label="Mishka в instagram">
+            <svg class="social__svg social__link--instagram" width="22" height="21">
+              <use xlink:href="#icon-insta"></use>
+            </svg>
+          </a>
+        </li>
+
+        <li class="social__item">
+          <a class="social__link social__link--facebook" href="blank.html" aria-label="Mishka в facebook">
+            <svg class="social__svg social__link--facebook" width="15" height="28">
+              <use xlink:href="#icon-fb"></use>
+            </svg>
+          </a>
+        </li>
+
+        <li class="social__item">
+          <a class="social__link social__link--twitter" href="blank.html" aria-label="Mishka в twitter">
+            <svg class="social__svg social__link--twitter" width="23" height="20">
+              <use xlink:href="#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <div class="page-footer__copyright copyright">
+      <p class="copyright__text">Разработано</p>
+
+      <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive" aria-label="Лендинг интенсива «Профессиональный HTML и CSS, уровень 2» в htmlacademy.ru"></a>
+    </div>
+  </footer>
+</body>
 </html>
